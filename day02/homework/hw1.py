@@ -65,7 +65,3 @@ c=x-y
 print(z)
 print(d)
 print(c)
-
-
-
-#hfwfwfhuhfu
