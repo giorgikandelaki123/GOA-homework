@@ -66,5 +66,3 @@ print(z)
 print(d)
 print(c)
 
-
-#wjffuwmjhmm
