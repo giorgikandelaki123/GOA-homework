@@ -1,20 +1,28 @@
-#print("enter your name")
-#name=input()
-#print(name)
+print("enter your name")
+name=input()
+print("your name is",name)
 
 
-#print("please enter num1")
-#num1 = int ( input() )
-
-#print("please enter num2")
-#num2 = int ( input() )
-
-#print("რიცხვების ჯამი არის:", num1 + num2)""
+x=int ( input() )
+y=int ( input() )
+print(x+y)
 
 
+age=input()
+print(age)
+age=int(age)
+print(type(age))
 
-#მომხმარებელს შემოატანინეთ თავისი ასაკი, თქვენი დავალებაა შემოყვანილი მნიშვნელობა გადაიყვანოთ integer ტიპის მონმაცემად და საბოლოოდ დაბეჭდოთ მომხმარებლის მიერ შემოყვანილი მნიშვნელობის მონაცემთა ტიპი. 
 
-age = int(("11?"))
-print()
+ 
+car="ferrari"
+x=10
+humanspeed=42.5
+y=20<40
+z=20>40
 
+print (type(car))
+print (type(x))
+print (type(humanspeed))
+print (type(y))
+print (type(z))
