@@ -38,8 +38,8 @@ print(word1+word2)
 
 
 num1=input()
-num2=input()
-num3=input()
+num2=int(input())
+num3=int(input())
 num4=input()
 num5=input()
 print((num1+num2+num3+num4+num5)/5)
