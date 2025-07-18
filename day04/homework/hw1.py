@@ -37,11 +37,11 @@ word2 = input()
 print(word1+word2)
 
 
-num1=input()
+num1=int(input())
 num2=int(input())
 num3=int(input())
-num4=input()
-num5=input()
+num4=int(input())
+num5=int(input())
 print((num1+num2+num3+num4+num5)/5)
 
 
