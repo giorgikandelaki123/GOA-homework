@@ -5,5 +5,20 @@
 # რომ მთავარი მოქმედება შესრულდეს.
 
 name=input()
+print(name)
 
+#and
+goal=30
+print(goal>20 and goal>5)
 
+#and
+suprise=104
+print(suprise>69 and suprise>100)
+
+#or
+cars=5
+print(cars>2 or cars<20)
+
+#or
+phone=7
+print(phone>17 or phone<19)
