@@ -51,9 +51,10 @@ print(type(b))
 print(type(c))
 print(type(d))
 
-s=input()
-c=int(input())
-l=float(input())
 
-#  ეს ვეღარ გავიგე: 
-# თუ ფლოათს შემოიყვანს მომხმარებელი გახადეთ ინფუთი ბულეან ტიპის თუ ინტეჯერს შემოიყვანს გახადეთ ინფუთი ინტეჯერ ტიპის
+s=input("gamarjoba giorgi")
+c=int(input("enter your age"))
+l=float(input("enter your height"))
+print(s)
+print(c)
+print(l)
