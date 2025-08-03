@@ -11,11 +11,10 @@ for i in range(12,120):
     print(i)
 
 #4
-name="giorgi"
-age=11
+name = input("შეიყვანე სახელი: ")
+age = input("შეიყვანე ასაკი: ")
 for i in range(18):
-    print(ghfte4fffy5r55ewd)
-
+    print(name, age)
 
 #5
 for i in range(10,100,3):
@@ -45,3 +44,19 @@ while y<24:
     y=y+1
 
 #10    
+for x in range(0,415,5):
+    print(x)
+
+for y in range(40.84):
+    print(y)
+
+z=10
+while z<20:
+    print(z)
+    z=z+1
+
+e=141
+while e<1151:
+    print(e)
+    e=e+1
+        
