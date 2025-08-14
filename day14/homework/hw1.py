@@ -1,40 +1,38 @@
 #დააყენე საწყისი ბალანსი და ცარიელი ტრანზაქციების სია
-balance = 0
-transactions = []
+balance = 0                 # balance — ბალანსი, საწყისი მნიშვნელობა არის 0
+transactions = []           # transactions — ტრანზაქციების სია, აქ შეინახება ყველა ჩარიცხვა და გატანა
 
-def show_balance():
-    print("ბალანსი:", balance)
+def show_balance():         # def — ფუნქციის აღწერა, show_balance — ფუნქციის სახელი
+    print("ბალანსი:", balance)    # print — დაბეჭდავს ტექსტს და მიმდინარე ბალანსს
 
-def deposit(amount):
-    global balance
-    if amount > 0:
-        balance += amount
-        transactions.append(f"+{amount}")
-        print(f"{amount} ჩაირიცხა")
-    else:
-        print("არასწორი თანხა")
+def deposit(amount):        # deposit — ჩარიცხვის ფუნქცია, amount — ჩასარიცხი თანხა
+    global balance          # global — გლობალური ცვლადის გამოყენება ფუნქციის შიგნით
+    if amount > 0:          # if — თუ, ანუ შემოწმება, რომ თანხა დადებითია
+        balance += amount   # += — ბალანსს ემატება ჩასარიცხი თანხა
+        transactions.append(f"+{amount}")  # append — სიაში დამატება, "+" ნიშნავს ჩარიცხვას
+        print(f"{amount} ჩაირიცხა")   # print — ბეჭდავს შეტყობინებას ჩარიცხვაზე
+    else:                   # else — სხვა შემთხვევაში
+        print("არასწორი თანხა")      # დაბეჭდავს, რომ თანხა არასწორია
 
-def withdraw(amount):
-    global balance
-    if 0 < amount <= balance:
-        balance -= amount
-        transactions.append(f"-{amount}")
-        print(f"{amount} გაიყვანეს")
-    else:
-        print("არასაკმარისი თანხა ან არასწორი თანხა")
+def withdraw(amount):       # withdraw — გატანის ფუნქცია, amount — გამოსატანი თანხა
+    global balance          # გლობალური ცვლადის გამოყენება
+    if 0 < amount <= balance:    # თანხა უნდა იყოს დადებითი და არ უნდა აღემატებოდეს ბალანსს
+        balance -= amount   # -= — ბალანსიდან გამოკლება
+        transactions.append(f"-{amount}")  # სიაში ემატება გატანის ტრანზაქცია
+        print(f"{amount} გაიყვანეს")  # შეტყობინება თანხის გატანაზე
+    else:                   # თუ პირობა არ დაკმაყოფილდა
+        print("არასაკმარისი თანხა ან არასწორი თანხა")  # შეტყობინება შეცდომაზე
 
-# მაგალითად:
-deposit(100)
-show_balance()
-withdraw(50)
-show_balance()
-print("ტრანზაქციები:", transactions)
+def show_transactions():    # show_transactions — ფუნქცია, რომელიც აჩვენებს ყველა ტრანზაქციას
+    print("ტრანზაქციები:")   # სათაურის დაბეჭდვა
+    if transactions:        # თუ სიაში არის ტრანზაქციები
+        for t in transactions:    # for — ციკლი, ტრიალებს ყველა ტრანზაქციაზე
+            print(t)        # დაბეჭდავს თითოეულ ტრანზაქციას
+    else:                   # თუ სია ცარიელია
+        print("ტრანზაქციები არ არის")  # შეტყობინება ცარიელი სიის შემთხვევაში
 
 
 
-#ბალანსის ნახვა
-balance = 1000
 
-def show_balance():
-    print(f"ბალანსი: {balance} ₾")
-show_balance()
+
+
