@@ -1,40 +1,40 @@
-# #1
-# number = int(input("Enter a number: "))
+#1
+number = int(input("Enter a number: "))
 
-# if number > 10:
-#     print("more than 10")
-# else:
-#     print("less than 10")
-
-
-# #2
-# number = int(input("შეიყვანეთ რიცხვი: "))
-
-# if number == 15:
-#     print("equal to 15")
-# else:
-#     print("not equal to 15")
+if number > 10:
+    print("more than 10")
+else:
+    print("less than 10")
 
 
-# #3
-# name = input("შეიყვანე სახელი: ")
+#2
+number = int(input("შეიყვანეთ რიცხვი: "))
 
-# if name == "giorgi":
-#     print("you are correct")
-# else:
-#     print("you are wrong")   
-
-
-# #4
-# x=50
-# while x<100:
-#     print(x)
-#     x=x+5
+if number == 15:
+    print("equal to 15")
+else:
+    print("not equal to 15")
 
 
-# #5
-# for i in range(5):
-#     print("გიორგი კანდელაკი")
+#3
+name = input("შეიყვანე სახელი: ")
+
+if name == "giorgi":
+    print("you are correct")
+else:
+    print("you are wrong")   
+
+
+#4
+x=50
+while x<100:
+    print(x)
+    x=x+5
+
+
+#5
+for i in range(5):
+    print("გიორგი კანდელაკი")
 
 
 #6
