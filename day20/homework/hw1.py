@@ -165,10 +165,15 @@ for number in range(40, 91, 3):
     print(number)
 
 #16
+for i in range(15):
+    print(str(i)+"giorgi")    
+
 name = 0
 while name < 15:
     print("giorgi")
-    name=name+1    
+    name=name+1
+
+
 
 #17
 my_name = "giorgi"
