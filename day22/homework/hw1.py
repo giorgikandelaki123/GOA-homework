@@ -16,10 +16,10 @@ print(numbers[4] + numbers[5] + numbers[1] + numbers[0])
 
 #3
 names = ["ნიკა", "მარიამი", "თემო", "ანა", "გიორგი", "სალომე", "დავითი", "ეკა", "ლევანი", "ნუცა"]
-print(names[4])  
-print(names[8])  
-print(names[2])  
-print(names[6])  
+print(names[5])  
+print(names[9])  
+print(names[3])  
+print(names[7])  
 print(names[1])  
 
 
