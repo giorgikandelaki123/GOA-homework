@@ -26,12 +26,6 @@ print(names[1])
 
 #4
 cities = ["თბილისი", "ბათუმი", "ქუთაისი", "გორი", "რუსთავი"]
-
-
-print("For loop:")
-for city in cities:
-    print(city)
-
 print("while loop")
 i = 0
 while True:
