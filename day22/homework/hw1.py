@@ -27,12 +27,12 @@ print(names[1])
 #4
 cities = ["თბილისი", "ბათუმი", "ქუთაისი", "გორი", "რუსთავი"]
 
-for i in range(0,6):
-    print(cities(i))
+for i in range(0,5):
+    print(cities[i])
 
 i=0
-while i<10:
-    print(cities(i))    
+while i<5:
+    print(cities[i])    
     i=i+1
 
 
@@ -44,7 +44,7 @@ my_list[6] = "msxali"
 my_list[4] = "atami"    
 print(my_list)
 
-#
+#6
 #True and False or False and True or false and false or true ---> true
 
 #7
