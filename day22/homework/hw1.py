@@ -26,13 +26,15 @@ print(names[1])
 
 #4
 cities = ["თბილისი", "ბათუმი", "ქუთაისი", "გორი", "რუსთავი"]
-print("while loop")
-i = 0
-while True:
-    if i == 5:
-        break
-    print(cities[i])
+
+for i in range(0,6):
+    print(cities(i))
+
+i=0
+while i<10:
+    print(cities(i))    
     i=i+1
+
 
 
 #5    
@@ -42,7 +44,8 @@ my_list[6] = "msxali"
 my_list[4] = "atami"    
 print(my_list)
 
-
+#
+#True and False or False and True or false and false or true ---> true
 
 #7
 animals = ["კატა", "ძაღლი", "თუთიყუში", "ლომი", "ფარშევანგი"]
@@ -66,12 +69,12 @@ print(basket[4])
 
 #9
 letters = ["ა", "ბ", "გ", "ო", "ლ", "ა", "მ", "ა", "ტ", "ე"]
-word_mama = letters[6] + letters[5] + letters[6] + letters[5]
-print(word_mama)
-word_gola = letters[2] + letters[3] + letters[4] + letters[5]
-print(word_gola)  
-word_goga = letters[2] + letters[3] + letters[2] + letters[5]
-print(word_goga)  
+mama = letters[6] + letters[5] + letters[6] + letters[5]
+print(mama)
+gola = letters[2] + letters[3] + letters[4] + letters[5]
+print(gola)  
+goga = letters[2] + letters[3] + letters[2] + letters[5]
+print(goga)  
 
 
 
