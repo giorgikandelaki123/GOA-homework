@@ -1,0 +1,60 @@
+<!-- 1 -->
+<label for="brand">აირჩიეთ მანქანის ბრენდი:</label>
+<select name="brand" id="brand">
+  <option value="bmw" selected>BMW</option>
+  <option value="audi">Audi</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="toyota">Toyota</option>
+  <option value="honda">Honda</option>
+</select>
+
+
+<!-- 2 -->
+<form action="/register-car" method="POST">
+  <label for="brand_id">მანქანის ბრენდი:</label>
+  <select name="brand_id" id="brand_id">
+    <option value="">აირჩიე ბრენდი</option>
+    <option value="1">Toyota</option>
+    <option value="2">BMW</option>
+    <option value="3">Mercedes</option>
+  </select>
+  <br><br>
+
+  
+    <label for="model">მოდელი:</label>
+    <input type="text" name="model" id="model" required>
+    <br><br>
+
+  
+    <label for="year">წელი:</label>
+    <input type="number" name="year" id="year" min="1900" max="2025" required>
+    <br><br>
+
+  
+    <label for="color">ფერი:</label>
+    <input type="text" name="color" id="color">
+    <br><br>
+
+  
+    <label for="price">ფასი (₾):</label>
+    <input type="number" name="price" id="price" required>
+    <br><br>
+
+  
+    <label for="mileage">გარბენი (კმ):</label>
+    <input type="number" name="mileage" id="mileage">
+    <br><br>
+
+ 
+    <label for="fuel_type">საწვავის ტიპი:</label>
+    <select name="fuel_type" id="fuel_type">
+    <option value="">აირჩიე ტიპი</option>
+    <option value="petrol">ბენზინი</option>
+    <option value="diesel">დიზელი</option>
+    <option value="electric">ელექტრო</option>
+    <option value="hybrid">ჰიბრიდი</option>
+</select>
+<br><br>
+
+  <button type="submit">დარეგისტრირება</button>
+</form>
