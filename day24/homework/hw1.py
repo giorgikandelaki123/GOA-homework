@@ -18,7 +18,9 @@ print(fruits[-3])
 
 
 #4
-"ვერ გავიგე"
+my_word=["dog" ," most" ,"is" ,"angry" ,"running"  , "forest", "fast", "in" , "cat" ,"human", "very"]
+print(my_word[-11] + my_word[-9] + my_word[-7] + my_word[-4] + my_word[-6] + my_word[-1] + my_word[-5])
+print(my_word[-3] + my_word[-9] + my_word[-1] + my_word[-8])
 
 #5
 animals = ["dog", "cat", "horse", "cow", "sheep", "goat"]
