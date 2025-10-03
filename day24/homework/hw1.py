@@ -14,7 +14,12 @@ print(fruits[-3])
 
 
 #3
-"ვერ გავიგე"
+x=int(input())
+numbers = [3,4,5,6,7,1,2,9,8,11]
+if x > 0 and x < 10:
+    print(numbers[x])
+elif x < 0 or x > 10:
+    print("you entered negative or more than 10  number ")    
 
 
 #4
@@ -91,5 +96,17 @@ bativar = letters[7] + letters[0] + letters[10] + letters[2] + letters[3] + lett
 print("bativar:", bativar)
 
 
-#10
-"ვერ გავიგე"
+10
+name="giorgi"
+for i in range(0,6):
+    print(name[i])
+
+geniosi="giorgi"
+index=0
+geniosi1=""
+while geniosi1 != geniosi:
+    print(geniosi[index])
+    geniosi1 += geniosi[index]
+    index += 1
+    
+
