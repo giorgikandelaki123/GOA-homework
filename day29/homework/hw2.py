@@ -234,3 +234,6 @@ if f [0] == "irma" or f [0] == "iamze":
     print("You choose irma or iamze")
 else:
     print("You choose other name")
+
+
+
