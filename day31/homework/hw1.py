@@ -40,4 +40,28 @@ num = numbers[3]
 if num % 2 == 0:
     print("EVEN number")    
 else:
-    print("ODD number")    
+    print("ODD number")
+
+#8
+x = [10,25,48,67,52]
+last_y = x[-1]
+if last_y % 2 == 0 and last_y > 50:
+    print("ეს რიცხვი არის ლუწი და მეტი 50 ზე")
+elif last_y % 2 != 0 and last_y < 50:
+    print("ეს რიცხვი არის კენტი და ნაკლები 50 ზე")
+
+
+#9
+nums = [12,45,78,99,150,200,7,34]
+if nums[5] % 2 == 0 or nums[5] > 100:
+    print("even or more than 100")
+if nums[5] % 2 != 0 or nums[3] < 100:
+    print("oddmor less than 100")
+
+#10
+str1 = "hello"
+str2 = "world"
+if str1 != str2:
+    print("strings are not equal")
+else:
+    print("strings are equal")    
