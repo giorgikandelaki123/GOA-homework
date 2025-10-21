@@ -77,9 +77,7 @@ for i in range(0, 6):
 
 
 #9 
-word = input("შეიყვანე 5 ასოიანი სიტყვა: ")
-for i in range(0, 5):
-    print(word[i])
+
 
 
 #10
