@@ -1,90 +1,90 @@
 #1
 for i in range(1, 51):
     if i % 2 == 0:
-        print(i, "ლუწია")
+        print(str(i) + " ლუწია")
     else:
-        print(i, "კენტი")
+        print(str(i) + " კენტია")
 
 
 #2 
 for i in range(0, 21):
     if i % 3 == 0 and i % 5 == 0:
-        print(i, "იყოფა 3-ზე და 5-ზე")
+        print(str(i) + " იყოფა 3-ზე და 5-ზე")
     elif i % 3 == 0:
-        print(i, "იყოფა 3-ზე")
+        print(str(i) + " იყოფა 3-ზე")
     elif i % 5 == 0:
-        print(i, "იყოფა 5-ზე")
+        print(str(i) + " იყოფა 5-ზე")
     else:
-        print(i, "არ იყოფა არცერთზე")
+        print(str(i) + " არ იყოფა არცერთზე")
 
 
 #3 
-nn = int(input("ნომერი: "))
-luwi = 0
-kenti = 0
-for i in range(0,1):
+number = int(input("შეიყვანე რიცხვი: "))
+even_count = 0
+odd_count = 0
+for i in range(0, number + 1):
     if i % 2 == 0:
-        luwi += 1
+        even_count = even_count + 1
     else:
-        kenti += 1
-print("ლუწი:", luwi)
-print("კენტი:", kenti)
+        odd_count = odd_count + 1
+
+print("ლუწი რიცხვების რაოდენობა: " + str(even_count))
+print("კენტი რიცხვების რაოდენობა: " + str(odd_count))
+
 
 
 #4
-lst = [10, 25, 33, 47, 80, 99]
-for x in lst:
-    if x > 50:
-        print(x, "მეტი 50-ზე")
+numbers = [10, 25, 33, 47, 80, 99]
+for i in range(0, 6):  
+    if numbers[i] > 50:
+        print(str(numbers[i]) + " მეტი 50-ზე")
     else:
-        print(x, "ნაკლები 50-ზე")
-
+        print(str(numbers[i]) + " ნაკლები 50-ზე")
 
 
 #5
-total = 0
+sum = 0
 for i in range(0, 101):
     if i % 2 == 0:
         print(i)
-        total += i
-print("ლუწი რიცხვების ჯამია:", total)
-
+        sum = sum + i
+print("ლუწი რიცხვების ჯამია: " + str(sum))
 
 
 #6
-words = ["apple", "banana", "avocado", "cherry", "apricot"]
-for w in words:
-    if w.startswith("a"):
-        print(w)
+words = ["apple", "banana", "avocado", "grape", "apricot", "melon"]
+for i in range(0, 6):  
+    if words[i][0] == "a":
+        print(words[i])
 
 
 #7
 for i in range(0, 21):
     if i == 0:
-        print(i, "ნულია")
+        print(str(i) + " ნულია")
     elif i % 2 == 0:
-        print(i, "ლუწია")
+        print(str(i) + " ლუწია")
     else:
-        print(i, "კენტია")
+        print(str(i) + " კენტია")
 
 
 #8
-list = [5, 15, 25, 35, 45, 55]
-for x in lst:
-    if x % 5 == 0:
-        print(x)
-
+numbers = [5, 15, 25, 35, 45, 55]
+for i in range(0, 6):
+    if numbers[i] % 5 == 0:
+        print(numbers[i])
 
 
 
 #9 
-s = "შენი სიტყვა"
-for ch in s:
-    print(ch)
+word = input("შეიყვანე 5 ასოიანი სიტყვა: ")
+for i in range(0, 5):
+    print(word[i])
 
 
 #10
 total = 0
 for i in range(1, 11):
-    total += i
-print("ჯამი არის:", total)
+    total = total + i
+
+print("ჯამი არის: " + str(total))
