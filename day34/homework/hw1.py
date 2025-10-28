@@ -56,4 +56,4 @@ for s in strings:
     if len(s) > len(longest):
         longest = s
 
-print("ყველაზე გრძელი სტრინგია:", longest)        
+print("ყველაზე გრძელი სტრინგია:", longest)
