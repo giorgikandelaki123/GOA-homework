@@ -10,7 +10,7 @@ for ch in word:
 #2
 sentence = input("შეიყვანე წინადადება: ")
 
-if 'bad' in sentence:
+if "bad" in sentence:
     print("აკრძალული სიტყვა!")
 else:
     print("ყველაფერი რიგზეა")
