@@ -15,7 +15,7 @@ else:
 #2
 text = input("შეიყვანეთ ტექსტი: ")
 
-for zangi in text:
-    if zangi == 'a' or zangi == 'A':
+for char in text:
+    if char == 'a' or char == 'A':
         continue
-    print(zangi)
+    print(char)
