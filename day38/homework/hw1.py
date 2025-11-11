@@ -4,7 +4,7 @@ print(name.upper())
 
 # 2) 
 name = input("შეიყვანეთ თქვენი სახელი დიდი ასოებით: ")
-print(name.lower())
+print(name.capitalize())
 
 
 # 3) 
@@ -20,8 +20,8 @@ for n in arvici:
 
 # 5) 
 ravici = ["NIKA", "MARI", "SABA", "LUKA"]
-for n in ravici:
-    print(n.lower())
+for patara in ravici:
+    print(patara.lower())
 
 
 # 6) 
