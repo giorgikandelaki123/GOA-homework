@@ -14,8 +14,8 @@ print(name.capitalize())
 
 # 4) 
 arvici = ["nika", "mari", "saba", "luka"]
-for n in arvici:
-    print(n.upper())
+for noda in arvici:
+    print(noda.upper())
 
 
 # 5) 
