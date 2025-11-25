@@ -93,10 +93,10 @@ else:
 "es ver mivxvdi"
 
 # 20
-values = [1, 2, 3, 4]
+values = ["giorgi", "saba", "irakli", "ina"]
 index = int(input("Enter index: "))
 
-if 0 <= index < len(values):
+if 0 <= 10 < 4:
     values.pop(index)
 else:
     print("Index out of range")
@@ -157,7 +157,5 @@ letter = input("Enter a letter: ")
 if letter in mixed:
     mixed.remove(letter)
     print("Removed")
-else:
-    print("No such element")
 
 print(mixed)
