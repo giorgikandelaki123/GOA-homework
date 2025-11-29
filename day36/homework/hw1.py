@@ -1,38 +1,21 @@
 #1 
-word = input("შეიყვანე სიტყვა: ")
 
-for ch in word:
-    if ch == 'e' or ch == 'E':
-        break
-    print(ch, end='')
 
 
 #2
 sentence = input("შეიყვანე წინადადება: ")
 
-if "bad" in sentence:
+if 'bad' in sentence:
     print("აკრძალული სიტყვა!")
 else:
     print("ყველაფერი რიგზეა")
 
 
 #3 
-text = input("შეიყვანე წინადადება: ")
 
-for ch in text:
-    if ch == ' ':
-        continue
-    print(ch, end='')
 
 
 #4 
-text = input("შეიყვანე წინადადება: ")
-vowels = 'aeiouAEIOU'
-
-for ch in text:
-    if ch in vowels:
-        continue
-    print(ch, end='')
 
 
 #5 
