@@ -17,7 +17,7 @@ for w in words[:]:
 
 print(words)
 
-<<<<<<< HEAD
+
 # 4
 words = ["apple", "Banana", "cherry", "Dog", "elephant"]
 
@@ -46,7 +46,7 @@ print(words)
 # lower() – ყველა ასოს აქცევს პატარად
 
 # capitalize() – მხოლოდ პირველ ასოს ხდის დიდს
-=======
+
 
 # 3
 numbers = [10, 15, 20, 25, 30, 35]      
@@ -65,4 +65,3 @@ for i in range(len(words) - 1, -1, -1):
     else:
         words.insert(0, words[i])
 print(words)
->>>>>>> 988668f5134cfef38a3b543a49e87b276f755500
