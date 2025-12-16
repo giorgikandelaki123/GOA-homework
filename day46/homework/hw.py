@@ -16,4 +16,31 @@ for i in range(nodo):
 
 print(words)
 
-# 3
+# 4
+words = ["apple", "Banana", "cherry", "Dog", "elephant"]
+
+for i in range(len(words)):
+    words[i] = words[i].capitalize()
+
+print(words)
+
+# 5
+# append(x) – სიაში ამატებს ელემენტს ბოლოში
+
+# insert(i, x) – ამატებს ელემენტს კონკრეტულ ინდექსზე
+
+# remove(x) – შლის მითითებულ ელემენტს
+
+# pop(1) – შლის ჩვენ მითითებულ რიცხვზე
+
+# len(list) – აბრუნებს სიის სიგრძეს
+
+# count(x) – ითვლის რამდენჯერ გვხვდება ელემენტი
+
+# reverse() – აბრუნებს სიის რიგს
+
+# upper() – ყველა ასოს აქცევს დიდად
+
+# lower() – ყველა ასოს აქცევს პატარად
+
+# capitalize() – მხოლოდ პირველ ასოს ხდის დიდს

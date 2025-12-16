@@ -36,22 +36,3 @@ for name in names[:]:
 
 print(names)
 
-
-# 4
-words = ["Apple", "banana", "Car", "dog", "Tree", "house"]
-
-for i in range(len(words) - 1, -1, -1):
-    first_letter = words[i][0]
-
-    if first_letter >= "A" and first_letter <= "Z":
-        if i % 2 == 1:
-            words[i] = words[i].lower()
-        else:
-            words.pop(i)
-
-print(words)
-
-# 5
-
-
-# 6
