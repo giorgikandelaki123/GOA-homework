@@ -23,7 +23,6 @@ for g in sityvis_kaci:
 # 4
 
 
-
 # 5
 numbers = [10, 20, 30, 40, 50]
 შედეგი = sum(numbers)
