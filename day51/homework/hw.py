@@ -14,8 +14,19 @@ print(სახელები)
 
 # 3
 sityvis_kaci = "გამარჯობა როგორ ხარ"
-asoebi = ""
+asoebi = "აეიოუ"
 
 for g in sityvis_kaci:
     if g in asoebi:
         print(g)
+
+# 4
+
+
+
+# 5
+numbers = [10, 20, 30, 40, 50]
+შედეგი = sum(numbers)
+დაითვლის = len(numbers)
+საშვალო = შედეგი / დაითვლის
+print("საშუალო არითმეტიკული არის:", საშვალო)
