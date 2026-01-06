@@ -1,17 +1,18 @@
 # 1
-words = ["python", "Java", "hello", "World", "apple", "Gamer", "computer"]
-
+sityvebi = ["python", "Java", "hello", "World", "apple", "Gamer", "computer"]
 i = 0
-while i < len(words):
-    exlandeli_sityva = words[i]
+
+while i < len(sityvebi):
+    exlandeli_sityva = sityvebi[i]
     
     if exlandeli_sityva == exlandeli_sityva.lower():
-        words[i] = exlandeli_sityva.upper() 
+        sityvebi[i] = exlandeli_sityva.upper() 
         i += 1
     else:
-        words.pop(i)
+        sityvebi.pop(i)
+        
 
-print(words)
+print(sityvebi)
 
 # 2
 sityva = "cuRcxElA"
@@ -52,6 +53,15 @@ while y < len(cities):
         y += 1
 
 print(cities)
+
+# 5
+# arvcii
+
+# 6
+# arvicii
+
+# 7
+# arvicii
 
 # 8
 original = "python"

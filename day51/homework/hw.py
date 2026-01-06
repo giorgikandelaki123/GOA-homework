@@ -20,7 +20,6 @@ for g in sityvis_kaci:
     if g in asoebi:
         print(g)
 
-# 4
 
 
 # 5
