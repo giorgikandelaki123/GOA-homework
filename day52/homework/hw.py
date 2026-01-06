@@ -1,3 +1,18 @@
+# 1
+words = ["python", "Java", "hello", "World", "apple", "Gamer", "computer"]
+
+i = 0
+while i < len(words):
+    exlandeli_sityva = words[i]
+    
+    if exlandeli_sityva == exlandeli_sityva.lower():
+        words[i] = exlandeli_sityva.upper() 
+        i += 1
+    else:
+        words.pop(i)
+
+print(words)
+
 # 2
 sityva = "cuRcxElA"
 geniosi = []
