@@ -2,7 +2,7 @@
 random = ["gamarjoba", "NINO", "nika", "HELLO", "giga"]
 axali_list = []
 
-for i in random\\\\\\\\\\\\\\\:
+for i in random:
     if i == i.lower() and i[0] == "g":
         axali_list.append("Goga")
     elif i == i.upper() or i[0] == "N":
