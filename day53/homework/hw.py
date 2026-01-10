@@ -1,8 +1,8 @@
 # 2
-words = ["gamarjoba", "NINO", "nika", "HELLO", "giga"]
+random = ["gamarjoba", "NINO", "nika", "HELLO", "giga"]
 axali_list = []
 
-for i in words:
+for i in random:
     if i == i.lower() and i[0] == "g":
         axali_list.append("Goga")
     elif i == i.upper() or i[0] == "N":
@@ -29,7 +29,6 @@ while i < len(numbers):
 print(new_list)
 
 # 5
-# ეს არის for
 num = "0123456789"
 list_num = []
 
@@ -37,16 +36,4 @@ for i in range(len(numbers)):
     cifri = int(numbers[i]) 
     if i % 2 == 0 or cifri > 7:
         new_list.append(cifri)
-print(new_list)
-
-# ეს არის while
-numbers = "0123456789"
-new_list = []
-i = 0
-
-while i < len(numbers):
-    cifri = int(numbers[i])
-    if i % 2 == 0 or cifri > 7:
-        new_list.append(cifri)
-    i = i + 1
 print(new_list)
