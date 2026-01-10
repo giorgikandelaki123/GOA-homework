@@ -1,5 +1,5 @@
 # 2
-random = ["gamarjoba", "NINO", "nika", "HELLO", "giga"]
+random = ["gamarjoba", "NINO", "HELLO", "giga", "ilia"]
 axali_list = []
 
 for i in random:
@@ -13,27 +13,26 @@ for i in random:
 print(axali_list)
 
 # 3
-numbers = [1, 2, 3, 4, 5]
-new_list = []
+numb = [1, 2, 3, 4, 5]
+list_00 = []
 i = 0
 
-while i < len(numbers):
-    ricxvi = numbers[i]
+while i < len(numb):
 
-    if ricxvi % 2 == 0 or i % 2 == 0:
-        new_list.append(ricxvi * ricxvi)
+    if numb[i] % 2 == 0 or i % 2 == 0:
+        list_00.append(numb[i] ** 2)
     else:
-        new_list.append(ricxvi * 2)
+        list_00.append(numb[i] * 2)
     i = i + 1
 
-print(new_list)
+print(list_00)
 
 # 5
-num = "0123456789"
-list_num = []
+nums = "012345678"
+list_nums = []
 
-for i in range(len(numbers)):
-    cifri = int(numbers[i]) 
+for i in range(len(nums)):
+    cifri = int(nums[i]) 
     if i % 2 == 0 or cifri > 7:
-        new_list.append(cifri)
-print(new_list)
+        list_nums.append(cifri)
+print(list_nums)

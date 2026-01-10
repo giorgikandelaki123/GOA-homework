@@ -64,14 +64,7 @@ print(cities)
 # arvicii
 
 # 8
-original = "python"
-reverse = ""
-
-for z in original:
-    reverse = z + reverse
-result = reverse.upper()
-
-print(result)
+# არვიცი
 
 # 9
 "გადავხედე"
