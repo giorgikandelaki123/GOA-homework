@@ -1,8 +1,6 @@
-p{
-    color: yellow; border: green solid; font-size: 50px; text-align: center;
-}
-
-
-button{
-    height: 60px; width: 100px; background-color: red; color: yellow;border: none; 
+p {
+    color: yellow;
+    border: green solid;
+    font-size: 50px;
+    text-align: center;
 }
