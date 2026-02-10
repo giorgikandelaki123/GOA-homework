@@ -103,3 +103,12 @@ def paroli(password):
 print(paroli("python123")) 
 print(paroli("12345"))      
 print(paroli("Python123")) 
+
+# 12
+def upper(sityva):
+    return sityva.upper()
+
+
+print(upper("hmm"))
+print(upper("good"))
+print(upper("bad"))
