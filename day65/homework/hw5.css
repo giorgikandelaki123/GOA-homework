@@ -1,0 +1,16 @@
+#one {
+    color: #003366; 
+    background-color: #e0f7fa;
+    border: 3px solid #00acc1; 
+    font-size: 18px;
+    text-align: center;
+}
+
+
+#two {
+    color: red;
+    background-color: white;
+    border: 3px solid gold;
+    font-size: 16px;
+    text-align: left;
+}
