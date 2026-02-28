@@ -7,3 +7,9 @@ def list1(num):
     return amount * num
 
 print(list1(5))
+
+
+
+def solution(string):
+    string1 = "world"
+    string1.reverse()
