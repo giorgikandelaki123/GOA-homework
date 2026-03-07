@@ -1,34 +1,37 @@
-# 1
-"gavaket ukve"
+
+
+
+
+
+
+
+
 
 # 2
 def summation(num):
     return (num * (num + 1)) // 2
 
+
+
+
+
+
+
+
 # 3
 def sum_array(a):
-    total = 0 
-    
-    for x in a:
-        total += x 
-        
-    return total
+    return sum(a)
 
 # 4
 def digitize(n):
-    result = []
-
-    if n == 0:
-        return [0]
-    while n > 0:
-        result.append(n % 10)
-        
-        n = n // 10
-    return result
+    number = [] 
+    for i in str(n):
+        number.append(int(i))
+    return number[::-i]
 
 # 5
 def are_you_playing_banjo(name):
-    if name[0].lower() == 'r':
+    if name[0].lower() == "r":
         return name + " plays banjo"
     else:
         return name + " does not play banjo"
