@@ -14,19 +14,18 @@ def reverse(st):
 
 # 3
 def quote(fighter):
-    if fighter.lower() == "conor mcgregor":
+    if fighter.lower() == "conor mcgregor": 
         return "I'd like to take this chance to apologize.. To absolutely NOBODY!"
     else:
         return "I am not impressed by your performance."
-    
 
 # 4
 def replace_exclamation(st):
-    vowels = "aeiouAEIOU"
+    aosebi = "aeiouAEIOU"
     sworia = ""
     
     for i in st:
-        if i in vowels:
+        if i in aosebi:
             sworia += "!"
         else:
             sworia += i
