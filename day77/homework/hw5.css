@@ -1,0 +1,10 @@
+ol {
+    list-style: url("https://cdn-icons-png.flaticon.com/16/1828/1828884.png"); 
+    font-family: "Georgia", serif; 
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue; 
+    background-color: #e6f0ff; 
+    text-align: right; 
+    border: 2px solid blue;
+}
