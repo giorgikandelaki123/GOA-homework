@@ -4,26 +4,26 @@ body {
     align-items: center;
 }
 
-form {
-    border: 1px solid #87ceeb;
-}
+
 
 h3 {
     color: #87ceeb;
     font-weight: normal;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
 }
 
 input {
     font-size: 14px;
     border: 1px solid #ddd;
     outline: none;
+    width: 300;
+    text-align: center;
 }
 
-input:focus {
-    border-color: #87ceeb;
-    background-color: #f0faff;
+input {
+    border-color: #bcbcbc;
+    background-color: #ffffff;
 }
 
 button {
@@ -32,8 +32,7 @@ button {
     color: white;
     font-size: 16px;
     border-radius: 2px;
+    background-color: #42a1f5;
+    width: 300;
 }
 
-button:hover {
-    background-color: #42a1f5;
-}

@@ -15,14 +15,15 @@ input {
     background-color: #f0f0f0;
     font-size: 14px;
     outline: none;
+    width: 300;
 }
 
-input:hover {
+input {
     background-color: #e6e6e6;
 }
 
 
-input:focus {
+input{
     border: 1px solid #999;
     background-color: #ffffff;
 }

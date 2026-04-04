@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+input{
+    width: 300;
+}
+
+button{
+    width: 300;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: #0dff00;
+}
+
