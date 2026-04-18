@@ -1,18 +1,16 @@
 .parent {
-    width: 500px;
-    height: 250px;
-    background-color: yellow;
-    border: 2px solid red;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    border: 2px solid black;
     display: flex;
-    flex-direction: row-reverse; 
-    justify-content: start;
-    align-items: end;
+    justify-content: cent er;  
+    align-items: center;       
 }
 
 .child {
-    background-color: green;
-    font-size: 18px;
-    color: white;
-    padding: 15px; 
-    margin: 10px;  
+    background-color: blue;
+    font-size: 16px;
+    padding: 10px;  
+    margin: 5px;    
 }
