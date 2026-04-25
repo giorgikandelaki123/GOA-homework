@@ -11,11 +11,4 @@ for i in range(len(surnames)):
 result = names + surnames
 print(result)
 
-# 3
-words = ["Python", "hello", "WORLD", "coding", "TestA"]
 
-for w in words[:]:
-    if len(w) < 6 or ('A' <= w[-1] <= 'Z'):
-        words.remove(w)
-
-print(words)
