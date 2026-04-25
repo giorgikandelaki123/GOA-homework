@@ -10,7 +10,7 @@
 }
 
 .container div:nth-child(1) {
-    flex-shrink: 0;
+    flex-shrink: 1;
     background-color: red;
 }
 
@@ -21,6 +21,6 @@
 }
 
 .container div:nth-child(3) {
-    flex-shrink: 0;
+    flex-shrink: 1;
     background-color: blue;
 }

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.item {
+    flex-basis: 150px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.first {
+    flex-shrink: 1;
+    background: red;
+}
+
+.second {
+    flex-shrink: 2;
+    background: yellow;
+}
+
+.third {
+    flex-shrink: 3;
+    background: green;
+}
