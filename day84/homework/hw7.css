@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 400px;
+}
+
+.container div {
+    flex-basis: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container div:nth-child(1) {
+    flex-shrink: 0;
+    background-color: red;
+}
+
+
+.container div:nth-child(2) {
+    flex-shrink: 0;
+    background-color: green;
+}
+
+.container div:nth-child(3) {
+    flex-shrink: 0;
+    background-color: blue;
+}
