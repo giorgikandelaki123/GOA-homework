@@ -1,0 +1,18 @@
+.parent {
+    width: 500px;
+    height: 250px;
+    background-color: yellow;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: start;
+    align-items: end;
+}
+
+.child {
+    background-color: green;
+    font-size: 18px;
+    color: white;
+    padding: 15px; 
+    margin: 10px;  
+}

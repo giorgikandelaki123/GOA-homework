@@ -1,0 +1,39 @@
+#pirveli {
+    color: gold;
+}
+
+#meore {
+    color: blue;
+}
+
+#mesame {
+    font-size: 50px; color: bisque;
+}
+
+#meotxe{
+    font-size: 26px;
+}
+
+#mexute {
+    border: 2px solid red;
+}
+
+
+#goga1{
+    color: red;
+    font-size: 20px;
+}
+
+#goga2{
+    color: blue;
+    font-size: 18px;
+}
+
+#goga3{
+    color: green;
+    font-size: 22px;
+}
+
+div{
+    color: darkgray;
+}

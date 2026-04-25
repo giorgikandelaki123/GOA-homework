@@ -1,0 +1,12 @@
+div {
+    border: 2px solid black;
+    color: green;
+    background-color: pink;
+    width: 250px;
+    height: 250px;
+    padding: 200px 150px;
+}
+
+button {
+    padding: 20px;
+}

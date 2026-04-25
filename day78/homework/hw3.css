@@ -1,0 +1,38 @@
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+
+
+h3 {
+    color: #87ceeb;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+input {
+    font-size: 14px;
+    border: 1px solid #ddd;
+    outline: none;
+    width: 300;
+    text-align: center;
+}
+
+input {
+    border-color: #bcbcbc;
+    background-color: #ffffff;
+}
+
+button {
+    background-color: #5ac8fa;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    background-color: #42a1f5;
+    width: 300;
+}
+

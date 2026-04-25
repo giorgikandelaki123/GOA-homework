@@ -1,0 +1,20 @@
+.parent {
+    width: 800px;
+    height: 800px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.child {
+    border: 2px solid green;
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

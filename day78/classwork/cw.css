@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    outline: none;
+    background-color: green;
+    border: 2px solid red;
+    color: blue;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+input:focus {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: lighter;
+}

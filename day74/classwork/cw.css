@@ -1,0 +1,34 @@
+a:link {
+    color: white;
+    background-color: blue;
+    font-size: 44px;
+    font-weight: bold;
+    text-decoration: none; text-align: center;
+}
+
+
+a:visited {
+    color: yellow;
+    background-color: purple;
+    text-decoration: none; background-color: blue;
+    font-size: 45px;
+    font-weight: bold; text-align: center;
+}
+
+
+a:hover {
+    color: black;
+    background-color: orange;
+    text-decoration: none; background-color: blue;
+    font-size: 46px;
+    font-weight: bold; text-align: center;
+}
+
+
+a:active {
+    color: white;
+    background-color: red;
+    text-decoration: none; background-color: blue;
+    font-size: 47px;
+    font-weight: bold; text-align: center;
+} 

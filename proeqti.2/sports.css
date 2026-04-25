@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(120deg, white, black);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    color: gold;
+    font-size: 42px;
+}
+
+img {
+    width: 220px;
+    border-radius: 15px;
+}
+
+img:hover {
+    box-shadow: 0 0 25px gold;
+}
+
+h3 {
+    color: #ffcc00;
+    font-size: 22px;
+}
+

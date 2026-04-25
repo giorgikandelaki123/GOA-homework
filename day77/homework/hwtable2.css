@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+
+
+th {
+    background: #333;
+}
+
+tr:nth-child(2) {
+    background: #4a90e2; 
+}
+
+tr:nth-child(3) {
+    background: #4caf50; 
+}
+
+tr:nth-child(4) {
+    background: #f4b400; 
+}
+
+tr:nth-child(5) {
+    background: #e53935; 
+}
+
+tr:nth-child(6) {
+    background: #4db6ac;
+}
+
+td{
+    width: 300px;
+}
