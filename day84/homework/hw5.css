@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+}
+
+.container div {
+    padding: 20px;
+    text-align: center;
+}
+
+.container div:nth-child(1) {
+    flex-basis: 100px;
+    background-color: orange;
+}
+
+.container div:nth-child(2) {
+    flex-basis: 200px;
+    background-color: yellow;
+}
+
+.container div:nth-child(3) {
+    flex-basis: 300px;
+    background-color: green;
+}
+
+.container div:nth-child(4) {
+    flex-basis: 150px;
+    background-color: lightgreen;
+}

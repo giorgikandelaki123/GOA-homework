@@ -1,0 +1,23 @@
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    height: 200px;
+}
+
+li {
+    background-color: #4a4a4a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+li:hover {
+    background-color: #8e44ad;
+}
+
+li:nth-child(3):hover {
+    flex-grow: 4;
+}
