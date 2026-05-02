@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: "big shoulders", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+
+h1{
+    font-family: "big shoulders", sans-serif;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color:  hsl(0, 0%, 95%);
+}
+
+p{
+    font-family:"big shoulders", sans-serif ;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.SEDANS{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.SUVS{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.LUXURY{
+    background-color: hsl(179, 100%, 13%);
+}
