@@ -1,56 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
-    font-family: "big shoulders", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.parent{
+.proeqt {
     display: flex;
-    flex-direction: row;
-    width: 800px;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 900px;
+    height: 400px;
 }
 
-h1{
+h1 {
     font-family: "big shoulders", sans-serif;
     font-size: 32px;
-    margin-bottom: 30px;
-    color:  hsl(0, 0%, 95%);
+    margin-bottom: 30px 20px;
+    color: hsl(0, 0%, 95%);
 }
 
-p{
-    font-family:"big shoulders", sans-serif ;
+p {
+    font-family: "big shoulders", sans-serif;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-button{
-    font-family: "Lexend Deca", sans-serif;
-    font-size: 14px;
+button {
     border: none;
+    font-size: 14px;
     border-radius: 25px;
     background-color: white;
+    padding: 12px 25px;
+    font-weight: bold;
 }
 
-.SEDANS{
+img {
+    margin-bottom: 30px;
+}
+
+.sedans {
     background-color: hsl(31, 77%, 52%);
 }
 
-.SUVS{
+.suvs {
     background-color: hsl(184, 100%, 22%);
 }
 
-.LUXURY{
+.luxury {
     background-color: hsl(179, 100%, 13%);
+}
+
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    color: hsl(179, 100%, 13%);
 }
