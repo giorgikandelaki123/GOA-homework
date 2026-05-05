@@ -15,18 +15,21 @@ body {
     justify-content: center;
 }
 
-.proeqt {
+.parent {
     display: flex;
-    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-    width: 900px;
+    border-radius: 8px;
+    width: 930px;
     height: 400px;
 }
 
 h1 {
+    margin-left: 30px;
     font-family: "big shoulders", sans-serif;
     font-size: 32px;
-    margin-bottom: 30px 20px;
+    margin-bottom: 30px;
     color: hsl(0, 0%, 95%);
 }
 
@@ -34,6 +37,7 @@ p {
     font-family: "big shoulders", sans-serif;
     font-size: 14px;
     margin-bottom: 40px;
+    margin-left: 30px;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
@@ -44,14 +48,20 @@ button {
     background-color: white;
     padding: 12px 25px;
     font-weight: bold;
+    margin-left: 35px;
+    margin-top: 30px;
 }
 
 img {
+    margin-top: 40px;
     margin-bottom: 30px;
+    margin-left: 30px;
+    width: 60px;
 }
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca", sans-serif
 }
 
 .suvs {
@@ -73,4 +83,13 @@ img {
 
 .luxury{
     color: hsl(179, 100%, 13%);
+}
+
+
+.parent div{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
 }
