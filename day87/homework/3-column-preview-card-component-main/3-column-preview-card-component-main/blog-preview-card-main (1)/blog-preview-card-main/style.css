@@ -19,5 +19,59 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 380px;
+    border-radius: 20px;
+    padding: 28px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0 black;
 }
 
+img{
+    width: 100%;
+    border-radius: 11px;
+}
+
+button{
+    width: 81px;
+    height: 28px;
+    border: none;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    margin-left: 3px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.p1{
+    padding: 15px 0px 10px 3px;
+    font-size: 14px;
+}
+
+.h{
+    font-size: 24px;
+    padding: 7px 0px 14px 0px;
+}
+
+.p2{
+    color: hsl(0, 0%, 42%);
+    margin: 0px 0px 22px 3px;
+}
+
+.div2{
+    height: 60px;
+    font-size: 10px;
+    margin: 39px 0px 0px 3px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div2 img{
+    width: 31px;
+    height: 32px;
+}
+
+.div2 h1{
+    font-size: 14px;
+}
