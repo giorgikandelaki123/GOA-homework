@@ -1,21 +1,22 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f3eae3;
 }
 
-.product{
-    height: 550px;
+.product {
     border-radius: 12px;
-    border: solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,16 +24,17 @@ body{
     width: 640px;
 }
 
-.pefume img{
-    height: 470px;
-    width: 320px;
+.pefume img {
+    height: 560px;
+    width: 360px;
+    border-radius: 12px;
 }
 
-.texts{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    align-items: start;
+div {
+    background-color: white;
 }
+
+h1{
+    text-align: center;
+}
+
