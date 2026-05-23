@@ -50,14 +50,3 @@ for i in range(len(words) - 1, -1, -1):
             words.pop(i)
 
 print(words)
-
-<<<<<<< HEAD
-# 5
-"ver gavakete"
-=======
-5
-
->>>>>>> b61a2c4e471ac0edd35b0e5d1598a4059cda9215
-
-# 6
-"ver gavakete"
