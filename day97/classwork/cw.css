@@ -1,0 +1,29 @@
+.purple {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: purple;
+    top: 50px;
+    left: 60px;
+    z-index: 2;
+}
+
+.red {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background: red;
+    top: 90px;
+    left: 120px;
+    z-index: 1;
+}
+
+.green {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: green;
+    top: 140px;
+    left: 170px;
+    z-index: 2;
+}
