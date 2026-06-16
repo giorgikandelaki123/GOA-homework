@@ -1,0 +1,37 @@
+.lights {
+    display: flex;
+    gap: 20px;
+}
+
+.red,
+.yellow,
+.green {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: box-shadow 0.5s linear 0.5s;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.red:hover {
+    box-shadow: 0 0 30px red;
+}
+
+.yellow:hover {
+    box-shadow: 0 0 30px gold;
+}
+
+.green:hover {
+    box-shadow: 0 0 30px lime;
+}

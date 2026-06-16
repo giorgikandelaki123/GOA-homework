@@ -1,0 +1,25 @@
+.info-box{
+    width:300px;
+    height:120px;
+    background:gray;
+    overflow:hidden;
+
+    transition:
+    height 1s,
+    background-color 1s;
+}
+
+.extra{
+    opacity:0;
+
+    transition:opacity 1s;
+}
+
+.info-box:hover{
+    height:250px;
+    background:green;
+}
+
+.info-box:hover .extra{
+    opacity:1;
+}

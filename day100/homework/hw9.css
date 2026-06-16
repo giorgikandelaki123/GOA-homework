@@ -1,0 +1,12 @@
+nav a{
+    text-decoration:none;
+    color:black;
+    margin:20px;
+    transition: transform 0.5s, color 0.5s, letter-spacing 0.5s;
+}
+
+nav a:hover{
+    transform:scale(1.2);
+    color:blue;
+    letter-spacing:3px;
+}

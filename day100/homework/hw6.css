@@ -1,0 +1,17 @@
+.gallery{
+    display:flex;
+    gap:10px;
+}
+
+.gallery img{
+    width:200px;
+    transition:all 0.8s ease-out;
+}
+
+.gallery:hover img{
+    transform:scale(0.8);
+}
+
+.gallery img:hover{
+    transform:scale(1.2);
+}
