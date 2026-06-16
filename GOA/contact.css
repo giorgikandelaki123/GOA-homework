@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f4f4f4;
+    color: #222;
+    background: url("goa.jpg") center/cover no-repeat;
+}
+
+header {
+    background: #0a7a2f;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.info {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin-top: 10px;
+}
+
+.form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form input,
+.form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border-color: #0a7a2f;
+}
+
+.form button {
+    background: #0a7a2f;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form button:hover {
+    background: darkgreen;
+    transform: scale(1.05);
+}
