@@ -185,10 +185,7 @@ button:hover{
     transform: scale(1.05);
 }
 
-footer{
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+::selection{
+    background:yellow;
+    color:black;
 }
