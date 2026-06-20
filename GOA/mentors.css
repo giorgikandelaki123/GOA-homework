@@ -16,6 +16,209 @@ header {
     padding: 20px;
     position: sticky;
     top: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+nav h1 {
+    font-size: 26px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: white;
+    color: green;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px 30px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: #0a7a2f;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #555;
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.search-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    width: 320px;
+    max-width: 90%;
+    padding: 12px;
+    border: 2px solid #0a7a2f;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.info {
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 0 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+    animation: show 0.7s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #0a7a2f;
+    color: white;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #0a7a2f;
+    transition: 0.3s;
+}
+
+.card:hover img {
+    border-color: yellow;
+    transform: scale(1.05);
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    opacity: 0.8;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.box {
+    width: 180px;
+    background: #0a7a2f;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.08);
+    background: green;
+}
+
+.box h2 {
+    font-size: 35px;
+}
+
+footer {
+    background: #0a7a2f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+::selection {
+    background: yellow;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: black;
+}
+
+header {
+    background: green;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
     z-index: 1000;
     box-shadow: 0 5px 15px rgb(0, 0, 0);
 }
@@ -116,4 +319,4 @@ nav a:hover {
 ::selection {
     background: yellow;
     color: red;
-}
+} */

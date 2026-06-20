@@ -59,14 +59,13 @@ nav a:hover {
 }
 
 .hero {
-    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(135deg, #0a7a2f, darkgreen);
+    background: linear-gradient(135deg, rgb(10, 122, 47), darkgreen);
     color: white;
 }
 
@@ -162,12 +161,6 @@ nav a:hover {
 
 .box h2 {
     font-size: 38px;
-}
-
-img {
-    max-width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
 }
 
 button:focus {
