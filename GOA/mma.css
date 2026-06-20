@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+nav {
+    background: linear-gradient(90deg, red, darkred);
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 15px red;
+}
+
+nav h1 {
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: red;
+    transform: scale(1.1);
+}
+
+section {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    background: #1c1c1c;
+    border-radius: 15px;
+    box-shadow: 0 0 10px red;
+    transition: 0.3s;
+    text-align: center;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px red;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    color: #ddd;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+li:hover {
+    color: red;
+    transform: translateX(5px);
+}
+
+.about {
+    border-left: 5px solid red;
+}
+
+.programs {
+    border-left: 5px solid darkred;
+}
+
+.vision {
+    border-left: 5px solid red;
+}
+
+.rules {
+    border-left: 5px solid darkred;
+}
+
+.schedule {
+    border-left: 5px solid red;
+}
+
+button:hover {
+    background: white;
+    color: red;
+    transform: scale(1.1);
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    margin-top: 40px;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+::selection {
+    background: red;
+    color: black;
+}

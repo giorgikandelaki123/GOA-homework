@@ -85,3 +85,7 @@ header {
 a{
     color: red
 }
+
+p{
+    font-weight: bolder;
+}
