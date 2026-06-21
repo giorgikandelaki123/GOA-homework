@@ -11,18 +11,17 @@ body{
 }
 
 header{
-    background: #0a7a2f;
+    background: darkgreen;
     color: white;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     padding: 20px;
-    position: fixed;
+    position:sticky;
     top: 0;
-    width: 100%;
+    left: 0;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
     align-items: center;
 }
 
@@ -75,7 +74,6 @@ nav a:hover{
     color: green;
     font-size: 18px;
     border-radius: 10px;
-    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -91,7 +89,6 @@ section{
     padding: 40px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .cards{
@@ -107,7 +104,6 @@ section{
     padding: 20px;
     border-radius: 10px;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .card:hover{
@@ -137,8 +133,7 @@ section{
     background: darkgreen;
 }
 
-.courses-intro,
-.algo-intro{
+.courses-intro{
     background: white;
     margin: 20px;
     padding: 40px;
@@ -147,36 +142,12 @@ section{
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.member{
-    background: #eee;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    display: inline-block;
-    width: 200px;
-    transition: 0.3s;
-}
-
-.member:hover{
-    background: #dff5e1;
-    transform: scale(1.05);
-}
-
-input, textarea{
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
 button{
     padding: 12px 25px;
     background: green;
     color: white;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
     transition: 0.3s;
 }
 

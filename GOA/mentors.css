@@ -11,24 +11,18 @@ body {
 }
 
 header {
-    background: green;
+    background: darkgreen;
     color: white;
     padding: 20px;
-    position: sticky;
+    position:sticky;
     top: 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
-    margin: auto;
-}
-
-nav h1 {
-    font-size: 26px;
 }
 
 nav ul {
@@ -43,7 +37,7 @@ nav a {
     padding: 8px 12px;
     border-radius: 8px;
     transition: 0.3s;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 nav a:hover {
@@ -74,18 +68,7 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-.search-box input {
-    width: 320px;
-    max-width: 90%;
-    padding: 12px;
-    border: 2px solid #0a7a2f;
-    border-radius: 10px;
-    font-size: 16px;
-}
-
 .info {
-    max-width: 900px;
-    margin: 20px auto;
     text-align: center;
     font-size: 16px;
     line-height: 1.7;
@@ -93,8 +76,6 @@ nav a:hover {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 25px;
     padding: 40px;
     max-width: 1200px;
@@ -106,10 +87,7 @@ nav a:hover {
     padding: 20px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
-    cursor: pointer;
-    animation: show 0.7s ease;
 }
 
 .card:hover {
@@ -122,7 +100,6 @@ nav a:hover {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    object-fit: cover;
     margin-bottom: 10px;
     border: 3px solid #0a7a2f;
     transition: 0.3s;
@@ -169,154 +146,17 @@ nav a:hover {
     font-size: 35px;
 }
 
-footer {
-    background: #0a7a2f;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin-top: 50px;
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: white;
 }
 
-::selection {
-    background: yellow;
-    color: red;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background: #f4f6f8;
-    color: black;
-}
-
-header {
-    background: green;
-    color: white;
-    padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 5px 15px rgb(0, 0, 0);
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-}
-
-nav h1 {
-    font-size: 26px;
-    letter-spacing: 1px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 8px;
-    transition: 0.3s;
-    font-weight: bold;
-}
-
-nav a:hover {
+::-webkit-scrollbar-track {
     background: white;
-    color: green;
 }
 
-.info {
-    max-width: 900px;
-    margin: 30px auto;
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.7;
-    padding: 0 20px;
-    color: black;
+::-webkit-scrollbar-thumb {
+    background: darkgreen;
+    border-radius: 10px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
-    padding: 40px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    background: #0a7a2f;
-    color: white;
-}
-
-.card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-    border: 3px solid #0a7a2f;
-    transition: 0.3s;
-}
-
-.card:hover img {
-    border-color: yellow;
-    transform: scale(1.05);
-}
-
-.card h2 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.card p {
-    font-size: 14px;
-    opacity: 0.8;
-}
-
-::selection {
-    background: yellow;
-    color: red;
-} */

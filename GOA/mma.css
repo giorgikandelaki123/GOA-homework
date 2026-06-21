@@ -10,6 +10,14 @@ body {
     color: white;
 }
 
+header{
+    color: white;
+    padding: 20px;
+    position:sticky;
+    top: 0;
+    left: 0;
+}
+
 nav {
     background: linear-gradient(90deg, red, darkred);
     padding: 25px;
@@ -51,7 +59,7 @@ section {
     padding: 25px;
     background: #1c1c1c;
     border-radius: 15px;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 20px red;
     transition: 0.3s;
     text-align: center;
 }
@@ -73,17 +81,7 @@ p {
     font-size: 18px;
     line-height: 1.8;
     text-align: center;
-    color: #ddd;
-}
-
-ul {
-    padding-left: 40px;
-}
-
-li {
-    font-size: 18px;
-    margin: 10px 0;
-    transition: 0.3s;
+    color: white;
 }
 
 li:hover {

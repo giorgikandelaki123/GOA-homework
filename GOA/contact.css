@@ -18,6 +18,16 @@ header {
     padding: 20px 20px;
 }
 
+.details{
+    font-weight: bolder;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.details a{
+    font-weight: bolder;
+}
+
 .contact-container {
     display: flex;
     justify-content: center;
@@ -73,19 +83,10 @@ header {
     border: none;
     padding: 12px;
     border-radius: 5px;
-    cursor: pointer;
     transition: 0.3s;
 }
 
 .form button:hover {
     background: darkgreen;
-    transform: scale(1.05);
-}
-
-a{
-    color: red
-}
-
-p{
-    font-weight: bolder;
+    transform: scale(1.1);
 }
