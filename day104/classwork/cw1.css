@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: move 5s linear 2s 5 alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0) scale(0);
+        background-color: yellow;
+    }
+
+    to {
+        transform: translateX(600px) scale(1.5);
+        background-color: blue;
+    }
+}
