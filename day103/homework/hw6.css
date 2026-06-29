@@ -1,0 +1,16 @@
+.move{
+    width:100px;
+    height:100px;
+    background:green;
+    animation:move 3s linear 3s 5;
+}
+
+@keyframes move{
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(1000px);
+    }
+}

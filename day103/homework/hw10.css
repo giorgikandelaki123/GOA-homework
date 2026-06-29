@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: move 2s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes move{
+    from {
+        width: 100px;
+        height: 100px;
+        background: green;
+        transform: rotate(0deg);
+    }
+
+    to {
+        width: 200px;
+        height: 200px;
+        background: purple;
+        transform: rotate(360deg);
+    }
+}

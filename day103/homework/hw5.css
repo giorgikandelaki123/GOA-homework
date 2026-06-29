@@ -1,0 +1,17 @@
+.ball{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:orange;
+    animation: move 1.5s ease-in infinite;
+}
+
+@keyframes move{
+    from{
+        transform:translateY(0);
+    }
+
+    to{
+        transform:translateY(300px);
+    }
+}

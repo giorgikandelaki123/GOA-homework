@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background:rgb(59, 0, 102);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.wertilebi{
+    display:flex;
+    gap:30px;
+}
+
+.wertilebi1, .wertilebi2, .wertilebi3{
+    width: 30px;
+    height:30px;
+    background:white;
+    border-radius:50%;
+    animation: move 1s infinite ease-in;
+}
+
+.wertilebi1{
+    animation-delay:0s;
+}
+
+.wertilebi2{
+    animation-delay:0.2s;
+}
+
+.wertilebi3{
+    animation-delay:0.4s;
+}
+
+@keyframes move{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(60px);
+    }
+}
+
+h2{
+    color:white;
+    font-family:Arial, sans-serif;
+    font-size:18px;
+    font-weight:normal;
+    margin-top:100px;
+}

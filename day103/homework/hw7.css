@@ -1,0 +1,19 @@
+.sun{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:yellow;
+    animation: move 4s forwards;
+}
+
+@keyframes move{
+    from{
+        transform:translateY(0);
+        background:yellow;
+    }
+
+    to{
+        transform:translateY(-250px);
+        background:orange;
+    }
+}

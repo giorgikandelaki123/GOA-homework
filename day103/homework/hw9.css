@@ -1,0 +1,18 @@
+.magic{
+    width:100px;
+    height:100px;
+    background:white;
+    animation: move 3s ease-in infinite;
+}
+
+@keyframes move{
+    from{
+        transform:translateY(0) scale(0.5);
+        background:white;
+    }
+
+    to{
+        transform:translateY(-500px) scale(1.5);
+        background:red;
+    }
+}

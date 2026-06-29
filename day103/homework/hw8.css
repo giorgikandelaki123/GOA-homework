@@ -1,0 +1,17 @@
+.line{
+    width:0;
+    height:50px;
+    background:blue;
+    animation: move 5s forwards;
+    animation-delay:1s;
+}
+
+@keyframes move{
+    from{
+        width:0;
+    }
+
+    to{
+        width:400px;
+    }
+}

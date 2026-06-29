@@ -1,0 +1,17 @@
+.circle{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:red;
+    animation: move 2s forwards;
+}
+
+@keyframes color{
+    from{
+        background:red;
+    }
+
+    to{
+        background:blue;
+    }
+}
