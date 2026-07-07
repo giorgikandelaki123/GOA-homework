@@ -10,12 +10,6 @@ body{
     margin-top:20px;
 }
 
-.container{
-    width:900px;
-    border:10px solid #FFE680;
-    padding:10px;
-}
-
 .header{
     height:170px;
     background:#7EA6F5;
