@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 80px 160px;
+    grid-template-rows: 60px 60px 60px 60px;
+    gap: 10px;
+}
+
+.box {
+    background: red;
+    height: 60px;
+}
+
+.box:nth-child(1) {
+    width: 80px;
+}
+
+.box:nth-child(2) {
+    width: 160px;
+}
+
+.box:nth-child(3) {
+    width: 160px;
+}
+
+.box:nth-child(4) {
+    width: 80px;
+}
+
+.box:nth-child(5) {
+    width: 80px;
+}
