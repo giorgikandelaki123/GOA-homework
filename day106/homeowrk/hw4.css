@@ -1,0 +1,23 @@
+.container4{
+    display:grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:70px 70px;
+    width:700px;
+    height:500px;
+    align-content:start;
+    /* align-content:center; */
+    /* align-content:end; */
+}
+
+.container4 div{
+    background:orange;
+}
+
+/* align-content:start
+მთელი Grid ზედა მხარეს გადადის.
+
+align-content:center
+მთელი Grid ვერტიკალურად ცენტრში გადადის.
+
+align-content:end
+მთელი Grid ქვედა მხარეს გადადის. */

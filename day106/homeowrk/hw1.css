@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    width: 700px;
+    height: 250px;
+    justify-content: center;
+    align-content: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* justify-content - ჰორიზონტალურად (მარცხნიდან მარჯვნივ) გადაადგილებს მთელ Grid-ს,
+როდესაც კონტეინერში თავისუფალი ადგილია. 
+
+align-content - ვერტიკალურად (ზემოდან ქვემოთ) გადაადგილებს მთელ Grid-ს,
+როდესაც კონტეინერში თავისუფალი ადგილია. */

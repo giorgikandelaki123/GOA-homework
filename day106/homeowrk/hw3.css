@@ -1,0 +1,25 @@
+.container1{
+    display:grid;
+    grid-template-columns:100px 100px 100px;
+    width:700px;
+    height:250px;
+    border:2px solid black;
+
+    justify-content:start;
+    /* center */
+    /* end */
+}
+
+.container1 div{
+    background:red;
+    border:1px solid black;
+}
+
+/* justify-content:start
+მთელი Grid მარცხნივ დგება.
+
+justify-content:center
+მთელი Grid ცენტრში გადადის.
+
+justify-content:end
+მთელი Grid მარჯვნივ გადადის.  */
