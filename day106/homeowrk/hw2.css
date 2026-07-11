@@ -4,7 +4,7 @@
     width: 500px;
     height: 250px;
     justify-items: center;
-    align-items: center;
+    align-items:end;
 }
 
 .container2 div {
@@ -13,8 +13,7 @@
     background-color: blue;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 

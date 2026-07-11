@@ -3,8 +3,6 @@
     grid-template-columns:100px 100px 100px;
     width:700px;
     height:250px;
-    border:2px solid black;
-
     justify-content:start;
     /* center */
     /* end */
@@ -12,7 +10,6 @@
 
 .container1 div{
     background:red;
-    border:1px solid black;
 }
 
 /* justify-content:start
