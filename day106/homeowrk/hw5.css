@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 10px;
+    justify-items: start;
+    /* justify-items: center; */
+    /* justify-items: end; */
+}
+
+.container div{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+}
+
+/* justify-items: start; — ყველა ელემენტი თითოეული Grid უჯრის მარცხენა მხარეს განლაგდება.
+justify-items: center; — ყველა ელემენტი თითოეული Grid უჯრის ჰორიზონტალურ ცენტრში განლაგდება.
+justify-items: end; — ყველა ელემენტი თითოეული Grid უჯრის მარჯვენა მხარეს განლაგდება. */

@@ -7,7 +7,7 @@
     align-content: center;
 }
 
-.item {
+.container div{
     width: 100px;
     height: 100px;
     background-color: red;
@@ -17,8 +17,8 @@
     align-items: center;
 }
 
-/* justify-content - ჰორიზონტალურად (მარცხნიდან მარჯვნივ) გადაადგილებს მთელ Grid-ს,
+/* justify-content ჰორიზონტალურად გადაადგილებს მთელ Grid-ს,
 როდესაც კონტეინერში თავისუფალი ადგილია. 
 
-align-content - ვერტიკალურად (ზემოდან ქვემოთ) გადაადგილებს მთელ Grid-ს,
+align-content ვერტიკალურად გადაადგილებს მთელ Grid-ს,
 როდესაც კონტეინერში თავისუფალი ადგილია. */
