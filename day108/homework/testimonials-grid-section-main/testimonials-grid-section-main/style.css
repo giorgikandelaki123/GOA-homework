@@ -32,12 +32,9 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
+    gap: 15px;
 }
 
-.same h1 {
-    margin-top: 16px;
-    margin-bottom: 15px;
-}
 
 .same p {
     line-height: 1.5;
@@ -80,7 +77,6 @@ body {
     gap: 13px;
     align-items: center;
     color: white;
-    margin-bottom: 3px;
 }
 
 .info {
@@ -106,7 +102,6 @@ h1{
 }
 
 p{
-    padding-top: 10px;
     font-size: 11px;
 }
 
