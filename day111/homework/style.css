@@ -27,7 +27,7 @@ body {
 .same {
     border-radius: 10px;
     display: flex;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 10px black;
 }
 
 .same img {
@@ -36,19 +36,15 @@ body {
 
 .skin {
     background: #faeee2;
-    grid-row: 1/6;
+    grid-row: 1 / 6;
+    grid-column: 1 / span 1;
     flex-direction: column;
     justify-content: center;
     padding: 25px;
     gap: 20px;
 }
 
-.skin h2,
-.fyellow h2,
-.lightpurple h2,
-.syellow h2,
-.fwhite h2,
-.spurple h2 {
+h2{
     font-weight: 500;
 }
 
@@ -64,7 +60,7 @@ body {
 
 .fyellow {
     background: #ffcc69;
-    grid-row: 6/11;
+    grid-row: 6 / 11;
     flex-direction: column;
     padding: 25px;
     gap: 20px;
@@ -125,7 +121,6 @@ body {
     background: #ffcc69;
     grid-row: 5/8;
     flex-direction: column;
-    justify-content: space-between;
     padding: 20px;
 }
 
