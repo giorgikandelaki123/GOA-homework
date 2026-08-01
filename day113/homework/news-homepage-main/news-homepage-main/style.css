@@ -1,43 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     font-family: "Inter", sans-serif;
+    background: hsl(36, 100%, 99%);
 }
 
-#parent{
-    width: 1020px;
+#parent {
+    width: 1030px;
     height: 660px;
-    border: 1px solid red;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 300px 200px 160px;
     gap: 30px;
 }
 
-.div1{
+.div1 {
     grid-column: 1 / 3;
-    grid-row:  1 / 2;
+    grid-row: 1 / 2;
 }
 
-.div1 img{
-    height: 100%;
+.div1 img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.div2{
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 2;
-    background-color: rgb(0, 0, 26);
+.div2 {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background: hsl(240, 100%, 5%);
     color: white;
     display: flex;
     flex-direction: column;
@@ -45,27 +46,102 @@ body{
     padding: 25px;
 }
 
-.div2 div{
+.div2 h1 {
+    color: #e9ab53;
+    font-size: 40px;
+}
+
+.div2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.div2 h2 {
+    font-size: 20px;
+}
+
+.div2 p {
+    color: rgb(197, 198, 206);
+    line-height: 1.8;
+    font-size: 14px;
+    opacity: 70%;
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+}
+
+.div3 h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div4 p {
+    color: #5d5f79;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.div4 button {
+    width: 180px;
+    height: 48px;
+    border: none;
+    background: #f15e50;
+    color: #000000;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.div5,
+.div6,
+.div7 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.div5 img,
+.div6 img,
+.div7 img {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.div5 div,
+.div6 div,
+.div7 div {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.div2 h1{
-    color: rgb(233, 171, 83);
-    font-size:35px;    
+.div5 h1,
+.div6 h1,
+.div7 h1 {
+    color: #f15e50;
+    font-size: 32px;
 }
 
-.div2 h2{
-    font-size: 20px
+.div5 h2,
+.div6 h2,
+.div7 h2 {
+    font-size: 18px;
+    font-weight: 800;
 }
 
-.div2 p{
-    font-size:14px;
-    opacity: 60%;
-    line-height: 1.8;
-}
-
-.div3 h1{
-    font-size: 55px;
+.div5 p,
+.div6 p,
+.div7 p {
+    color: #5d5f79;
+    line-height: 1.6;
+    font-size: 15px;
 }
