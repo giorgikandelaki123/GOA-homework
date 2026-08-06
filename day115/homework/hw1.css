@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+    gap: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+nav img {
+    width: 100px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon img {
+    width: 30px;
+}
+
+.sec1 {
+    display: flex;
+    background-color: #F0EFEB;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 120px;
+}
+
+.txtdiv1 {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: start;
+    width: 50%;
+}
+
+.txtdiv1 p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    width: 80%;
+}
+
+.txtdiv1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    width: 67%;
+}
+
+.txtdiv1 button {
+    width: 130px;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+@media (max-width: 1300px) {
+
+    .txtdiv1 p {
+        font-size: 40px;
+    }
+
+    .txtdiv1 h1 {
+        font-size: 20px;
+    }
+
+    .sec1 img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 940px) {
+
+    header {
+        padding: 30px 40px;
+    }
+
+    .sec1{
+        padding: 40px;
+    }
+
+    .txtdiv1{
+        width: 80%;
+    }
+}
+
+#menu {
+    width: 30px;
+    display: none;
+    color: black;
+}
+
+@media (max-width: 770px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .sec1{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .txtdiv1{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .sec1 img{
+        width: 70%;
+    }
+
+    .txtdiv1 p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .txtdiv1 h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+}
