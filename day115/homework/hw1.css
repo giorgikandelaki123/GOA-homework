@@ -8,21 +8,20 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    height: 100vh;
+    color: #000;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 120px;
-    gap: 40px;
+    padding: 20px 80px;
 }
 
 nav {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 70px;
 }
 
 nav img {
@@ -33,96 +32,199 @@ ul {
     display: flex;
     list-style: none;
     gap: 28px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 
 .icon {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .icon img {
-    width: 30px;
+    width: 20px !important;
+    height: 20px;
+    object-fit: contain;
 }
 
 .sec1 {
     display: flex;
-    background-color: #F0EFEB;
+    background-color: #f0efeb;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 120px;
+    padding: 55px 120px;
 }
 
 .txtdiv1 {
     display: flex;
     flex-direction: column;
-    gap: 26px;
-    align-items: start;
-    width: 50%;
-}
-
-.txtdiv1 p {
-    margin-top: 10px;
-    font-weight: 400;
-    font-size: 24px;
-    width: 80%;
+    gap: 20px;
+    align-items: flex-start;
+    width: 48%;
 }
 
 .txtdiv1 h1 {
-    font-size: 60px;
+    font-size: 55px;
+    line-height: 1;
     font-weight: 700;
-    width: 67%;
+    max-width: 600px;
+}
+
+.txtdiv1 p {
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 500px;
 }
 
 .txtdiv1 button {
-    width: 130px;
-    font-size: 36px;
+    width: 140px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
     background-color: black;
     color: white;
+    border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
 
-@media (max-width: 1300px) {
-
-    .txtdiv1 p {
-        font-size: 40px;
-    }
-
-    .txtdiv1 h1 {
-        font-size: 20px;
-    }
-
-    .sec1 img{
-        width: 40%;
-    }
+.sec1 > img {
+    width: 42%;
+    max-width: 500px;
 }
 
-@media (max-width: 940px) {
+.intro {
+    text-align: center;
+    padding: 35px 20px 20px;
+}
 
-    header {
-        padding: 30px 40px;
-    }
+.intro h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
 
-    .sec1{
-        padding: 40px;
-    }
+.intro p {
+    max-width: 550px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.5;
+}
 
-    .txtdiv1{
-        width: 80%;
-    }
+.sellers {
+    padding: 25px 80px 80px;
+    text-align: center;
+}
+
+.sellers > h2 {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    width: 220px;
+    text-align: center;
+}
+
+.card img {
+    width: 180px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.card p {
+    font-size: 11px;
+    margin: 8px 0;
+}
+
+.card span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding: 50px 120px;
+    background-color: #f0efeb;
+}
+
+.category:nth-of-type(5) {
+    background-color: #ddd;
+}
+
+.category img {
+    width: 210px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.category-text {
+    max-width: 400px;
+}
+
+.category-text h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.category-text p {
+    font-size: 16px;
+    line-height: 1.35;
+    margin-bottom: 15px;
+}
+
+.category-text small {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.reverse {
+    background-color: #ddd;
 }
 
 #menu {
     width: 30px;
     display: none;
-    color: black;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 940px) {
+
     header {
-        padding: 15px 30px;
+        padding: 20px 40px;
+    }
+
+    .sec1 {
+        padding: 40px;
+    }
+
+    .txtdiv1 h1 {
+        font-size: 40px;
+    }
+
+    .category {
+        padding: 40px;
+    }
+}
+
+
+@media (max-width: 770px) {
+
+    header {
+        padding: 15px 25px;
     }
 
     ul {
@@ -133,29 +235,89 @@ ul {
         display: block;
     }
 
-    .sec1{
+    nav {
+        gap: 20px;
+    }
+
+    nav > img:last-child {
+        width: 80px;
+    }
+
+    .icon {
+        gap: 8px;
+    }
+
+    .icon img {
+        width: 17px !important;
+        height: 17px;
+    }
+
+    .sec1 {
         flex-direction: column;
-        gap: 60px;
-    }
-
-    .txtdiv1{
-        justify-content: center;
+        gap: 35px;
+        padding: 40px 25px;
         text-align: center;
-        align-items: center;
-        width: 90%;
     }
 
-    .sec1 img{
-        width: 70%;
-    }
-
-    .txtdiv1 p {
+    .txtdiv1 {
         width: 100%;
-        font-size: 15px;
+        align-items: center;
     }
 
     .txtdiv1 h1 {
+        font-size: 32px;
+    }
+
+    .txtdiv1 p {
+        font-size: 15px;
+    }
+
+    .sec1 > img {
+        width: 75%;
+    }
+
+    .sellers {
+        padding: 30px 15px 50px;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .card img {
         width: 100%;
-        font-size: 30px;
+        height: auto;
+    }
+
+    .category {
+        flex-direction: column;
+        padding: 45px 30px;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .category img {
+        width: 180px;
+        height: 240px;
+    }
+
+    .category-text {
+        width: 100%;
+    }
+
+    .category-text h2 {
+        font-size: 20px;
+    }
+
+    .category-text p {
+        font-size: 14px;
+    }
+
+    .reverse {
+        flex-direction: column;
     }
 }
