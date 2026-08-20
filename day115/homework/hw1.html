@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,124 +9,234 @@
 </head>
 
 <body>
-    
     <header>
-        <nav>
-            <img src="./images/menu.png" alt="" id="menu">
-            <ul>
-                <li>Shop</li>
-                <li>Collections</li>
-                <li>Try a Free Guide</li>
-                <li>Stories</li>
-            </ul>
-            <img src="./images/image1.png" alt="">
-        </nav>
+        <div class="navigation-container">
+            <div class="navigation-menu">
+                <a href="#">Shop</a>
+                <a href="#">Collections</a>
+                <a href="#">Try a Free Guide</a>
+                <a href="#">Stories</a>
+            </div>
 
-        <div class="icon">
-            <img src="./images/instagram.png" alt="">
-            <img src="./images/search.png" alt="">
-            <img src="./images/locked.png" alt="">
+            <div class="website-logo">
+                <img src="images/image1.png" alt="">
+            </div>
+
+            <div class="navigation-icons">
+                <img src="images/instagram.png" alt="">
+                <img src="images/search.png" alt="">
+                <img src="images/locked.png" alt="">
+            </div>
         </div>
     </header>
 
+    <section class="main-hero">
+        <div class="hero-content">
+            <h1>Fall deeper in love <br> with <br> humanity.</h1>
+            <p>Get to know the world through our concise,<br> informative and inspiring guides.</p>
+            <a href="#" class="shop-button">Shop Now</a>
+        </div>
 
-    <main>
-        <section class="sec1">
+        <div class="hero-picture">
+            <img src="images/bigimg.png" alt="Thalby Guides">
+        </div>
+    </section>
 
-            <div class="txtdiv1">
-                <h1>Fall deeper in love with humanity.</h1>
-                <p>
-                    Get to know the world through our concise,
-                    informative and inspiring guides.
-                </p>
-                <button>Shop Now</button>
+    <div class="title-bar">
+        <h2>Our guides explain countries and cultures.</h2>
+    </div>
+
+    <div class="introduction">
+        <p>Are you curious about the world around you? Our guides are for smart global citizens, world travellers and
+            engaged residents who want to gain a deeper understanding of the cultures and societies they care about.</p>
+        <small>Available as ebooks here and on Amazon.</small>
+    </div>
+
+    <section class="best-products container-box">
+        <h3>Our best sellers</h3>
+
+        <div class="products-list">
+            <div class="product">
+                <img src="images/man1.png" alt="French Culture and Heritage">
+                <h4>Thalby Guide to<br>French Culture and Heritage</h4>
+                <div class="product-price">USD 6.99</div>
+                <a href="#" class="cart-button">Add to cart</a>
             </div>
-            <img src="./images/bigimg.png" alt="">
-        </section>
 
+            <div class="product">
+                <img src="images/girl1.png" alt="French People and Society">
+                <h4>Thalby Guide to<br>French People and Society</h4>
+                <div class="product-price">USD 6.99</div>
+                <a href="#" class="cart-button">Add to cart</a>
+            </div>
 
-        <section class="intro">
-            <h2>Our guides explain countries and cultures.</h2>
-            <p>
-                Are you curious about the world around you? Our guides are for smart global citizens, world travelers and engaged residents who want to gain a deeper understanding of the cultures and societies they care about.
-            </p>
-        </section>
+            <div class="product">
+                <img src="images/girl2.png" alt="German Culture and Heritage">
+                <h4>Thalby Guide to<br>German Culture and Heritage</h4>
+                <div class="product-price">USD 6.99</div>
+                <a href="#" class="cart-button">Add to cart</a>
+            </div>
+        </div>
+    </section>
 
+    <section class="information-section">
+        <div class="information-container">
+            <div class="information-image">
+                <img src="images/girl3.png" alt="People and Society">
+            </div>
+            <div class="information-text">
+                <h3>People and Society</h3>
+                <p>Our guides to society deliver all the social insight you need, helping you understand how people
+                    live, love and play today and why communities are the way they are.</p>
+                <a href="#">Shop Society Guides</a>
+            </div>
+        </div>
+    </section>
 
-        <section class="sellers">
-            <h2>Our best sellers</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="./images/man1.png" alt="">
-                    <h3>French Culture</h3>
-                    <p>French culture and history guide</p>
-                    <span>$16.99</span>
+    <section class="information-section gray-background">
+        <div class="information-container reversed">
+            <div class="information-image">
+                <img src="images/man2.png" alt="Culture and Heritage">
+            </div>
+            <div class="information-text">
+                <h3>Culture and Heritage</h3>
+                <p>As well as covering heritage and tradition, our guides to culture introduce you to the designers,
+                    artists and chefs creating at the forefront of today's culture.</p>
+                <a href="#">Shop Culture Guides</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="information-section">
+        <div class="information-container">
+            <div class="information-image">
+                <img src="images/girl4.png" alt="Power and Politics">
+            </div>
+            <div class="information-text">
+                <h3>Power and Politics</h3>
+                <p>Our guides to power take you behind the scenes to explore the power dynamics, policies and politics
+                    shaping a country's future and its global position.</p>
+                <a href="#">Coming 2020</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <h2 class="main-title">Some of the features that<br>make Thalby guides unique</h2>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="circle-icon circle-cyan"></div>
+                <h3 class="feature-title">Written by<br>locals</h3>
+            </div>
+
+            <div class="feature-card">
+                <div class="circle-icon circle-green"></div>
+                <h3 class="feature-title">Packed with<br>insight</h3>
+            </div>
+
+            <div class="feature-card">
+                <div class="circle-icon circle-blue"></div>
+                <h3 class="feature-title">Interviews with<br>diverse voices</h3>
+            </div>
+
+            <div class="feature-card">
+                <div class="circle-icon circle-brown"></div>
+                <h3 class="feature-title">Key facts and<br>etiquette tips</h3>
+            </div>
+
+            <div class="feature-card">
+                <div class="circle-icon circle-red"></div>
+                <h3 class="feature-title">A concise<br>1-hour read</h3>
+            </div>
+
+            <div class="feature-card">
+                <div class="circle-icon circle-purple"></div>
+                <h3 class="feature-title">Instant<br>digital access</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="interviews-section">
+        <h2 class="main-title">Each Thalby guide includes interviews with<br>a range of fascinating voices,
+            such as</h2>
+
+        <div class="interviews-background">
+            <div class="interviews-grid">
+
+                <div class="interview-card">
+                    <img src="images/man3.png" alt="Camille Muller" class="portrait-image">
+                    <p class="quote">"I don't like things to be conventional. If it's too nice, I bring disorder."
+                    </p>
+                    <p class="person-name">Camille Muller,</p>
+                    <p class="person-job">Landscape Designer, France</p>
+                    <a href="#" class="discover-button">Discover</a>
                 </div>
 
-                <div class="card">
-                    <img src="./images/girl1.png" alt="">
-                    <h3>Japanese Culture</h3>
-                    <p>Japanese culture and history guide</p>
-                    <span>$16.99</span>
+                <div class="interview-card">
+                    <img src="images/girl5.png" alt="Sonia Kowalewski" class="portrait-image">
+                    <p class="quote">"Magic is not magic in the sense that I can just wish for anything."</p>
+                    <p class="person-name">Sonia Kowalewski,</p>
+                    <p class="person-job">Witch, Germany</p>
+                    <a href="#" class="discover-button">Discover</a>
                 </div>
 
-                <div class="card">
-                    <img src="./images/girl2.png" alt="">
-                    <h3>Chinese Culture</h3>
-                    <p>Chinese culture and history guide</p>
-                    <span>$16.99</span>
+                <div class="interview-card">
+                    <img src="images/girl6.png" alt="Lilly Stoephasius" class="portrait-image">
+                    <p class="quote">"I was eight years old when I entered my first competition. I won it."</p>
+                    <p class="person-name">Lilly Stoephasius,</p>
+                    <p class="person-job">Skateboarder, Germany</p>
+                    <a href="#" class="discover-button">Discover</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <h2 class="main-title">Keep in touch</h2>
+        <p class="newsletter-text">Get our travel advice, global views and travel freebies in your inbox</p>
+
+        <form class="newsletter-form">
+            <div class="input-pair">
+                <input type="text" placeholder="First Name" class="input-field">
+                <input type="text" placeholder="Last Name" class="input-field">
+            </div>
+            <input type="email" placeholder="Email" class="input-field full-input">
+            <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+    </section>
+
+    <footer class="website-footer">
+        <div class="footer-content">
+
+            <div class="footer-left">
+                <h3 class="footer-logo">thalby</h3>
+                <div class="social-links">
+                    <img src="image14.png" alt="" class="social-icon">
+                    <img src="image15.png" alt="" class="social-icon">
+                    <img src="image16.png" alt="" class="social-icon">
                 </div>
             </div>
-        </section>
 
+            <div class="footer-right">
+                <div class="footer-column">
+                    <span class="footer-heading">ABOUT</span>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Write for Us</a>
+                </div>
 
-        <section class="category">
-            <img src="./images/card4.png" alt="">
-            <div class="category-text">
-                <h2>People and Society</h2>
-                <p>
-                    Our guides to society deliver all the social
-                    insight you need, helping you understand how
-                    people live, love and play today and why
-                    communities are the way they are.
-                </p>
-                <small>View the guides</small>
+                <div class="footer-column">
+                    <span class="footer-heading">CONTACT</span>
+                    <a href="mailto:hi@thalby.com">Email: hi@thalby.com</a>
+                    <a href="#">Help</a>
+                </div>
             </div>
 
-        </section>
-
-
-        <section class="category reverse">
-            <div class="category-text">
-                <h2>Culture and Heritage</h2>
-                <p>
-                    As well as covering heritage and tradition,
-                    our guides to culture introduce you to the
-                    designers, artists and chefs creating at the
-                    forefront of today's culture.
-                </p>
-                <small>View the guides</small>
-            </div>
-            <img src="./images/card5.png" alt="">
-        </section>
-
-
-        <section class="category">
-            <img src="./images/card6.png" alt="">
-            <div class="category-text">
-                <h2>Power and Politics</h2>
-                <p>
-                    Our guides to power take you behind the scenes
-                    to explore the power dynamics, politics and
-                    positions shaping a country's future and its
-                    global position.
-                </p>
-                <small>View the guides</small>
-            </div>
-
-        </section>
-
-    </main>
+        </div>
+    </footer>
 </body>
 
 </html>
