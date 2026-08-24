@@ -88,7 +88,6 @@ ul li {
     font-size: 32px;
     line-height: 1.15;
     font-weight: 600;
-    color: #4D4D4D;
 }
 
 .hero-text h1 span {
@@ -120,7 +119,6 @@ ul li {
 
 .hero-image img {
     width: 280px;
-    max-width: 100%;
 }
 
 .dots {
@@ -156,7 +154,6 @@ ul li {
 .clients h2 {
     font-size: 19px;
     font-weight: 600;
-    color: #4D4D4D;
 }
 
 .clients p {
@@ -193,7 +190,6 @@ ul li {
     font-size: 19px;
     line-height: 1.2;
     font-weight: 600;
-    color: #4D4D4D;
 }
 
 .community p {
@@ -233,7 +229,6 @@ ul li {
     font-size: 14px;
     line-height: 1.25;
     font-weight: 600;
-    color: #4D4D4D;
 }
 
 .card p {
@@ -260,8 +255,6 @@ ul li {
 
 .feature-image img {
     width: 260px;
-    max-width: 100%;
-    object-fit: contain;
 }
 
 .feature-text {
@@ -274,16 +267,13 @@ ul li {
 
 .feature-text h2 {
     width: 450px;
-    max-width: 100%;
     font-size: 19px;
     line-height: 1.3;
     font-weight: 600;
-    color: #4D4D4D;
 }
 
 .feature-text p {
     width: 500px;
-    max-width: 100%;
     font-size: 8px;
     line-height: 1.5;
     color: #777;
@@ -301,7 +291,7 @@ ul li {
 
 .stats {
     width: 100%;
-    min-height: 150px;
+    height: 150px;
     padding: 30px 76px;
     background-color: #F5F7FA;
     display: flex;
@@ -346,12 +336,10 @@ ul li {
 .stat img {
     width: 25px;
     height: 25px;
-    object-fit: contain;
 }
 
 .stat h3 {
     font-size: 13px;
-    font-weight: 600;
 }
 
 .stat p {
@@ -362,9 +350,7 @@ ul li {
 
 .footer-design {
     width: 100%;
-    min-height: 335px;
-    border-top: 2px dotted #2196F3;
-    border-bottom: 2px dotted #2196F3;
+    height: 335px;
     padding: 35px 76px;
     display: flex;
     align-items: center;
@@ -381,8 +367,6 @@ ul li {
 
 .footer-design-image img {
     width: 280px;
-    max-width: 100%;
-    object-fit: contain;
 }
 
 .footer-design-text {
@@ -396,12 +380,10 @@ ul li {
 .footer-design-text h2 {
     font-size: 26px;
     line-height: 1.2;
-    font-weight: 600;
 }
 
 .footer-design-text p {
     width: 520px;
-    max-width: 100%;
     font-size: 10px;
     line-height: 1.5;
     color: #777;
@@ -419,9 +401,8 @@ ul li {
 
 .testimonial {
     width: 100%;
-    min-height: 305px;
+    height: 305px;
     background-color: #F5F7FA;
-    border-bottom: 2px dotted #2196F3;
     padding: 22px 76px;
     display: flex;
     align-items: center;
@@ -439,10 +420,8 @@ ul li {
 .testimonial-image img {
     width: 230px;
     height: 230px;
-    max-width: 100%;
     object-fit: cover;
     border-radius: 6px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
 }
 
 .testimonial-content {
@@ -462,7 +441,6 @@ ul li {
 .testimonial-content h3 {
     margin-top: 12px;
     font-size: 14px;
-    font-weight: 600;
     color: #4CAF50;
 }
 
@@ -489,15 +467,12 @@ ul li {
 .testimonial-logos img {
     width: 35px;
     height: 28px;
-    object-fit: contain;
 }
 
 .testimonial-bottom a {
     text-decoration: none;
     color: #4CAF50;
     font-size: 13px;
-    font-weight: 500;
-    white-space: nowrap;
 }
 
 .testimonial-bottom a span {
@@ -505,43 +480,8 @@ ul li {
     font-size: 16px;
 }
 
-
-/* TABLET */
-
-@media (max-width: 1100px) {
-    header,
-    .hero,
-    .clients,
-    .community,
-    .feature,
-    .stats,
-    .footer-design,
-    .testimonial {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    .cards {
-        gap: 25px;
-    }
-
-    .feature {
-        gap: 40px;
-    }
-
-    .footer-design {
-        gap: 40px;
-    }
-
-    .testimonial {
-        gap: 35px;
-    }
-}
-
-
-/* SMALL TABLET */
-
 @media (max-width: 900px) {
+
     header {
         padding: 0 30px;
     }
@@ -562,26 +502,13 @@ ul li {
         gap: 20px;
     }
 
-    .logos {
-        gap: 15px;
-    }
-
     .feature {
         padding: 35px 30px;
         gap: 35px;
     }
 
-    .feature-text h2,
-    .feature-text p {
-        width: 100%;
-    }
-
     .stats {
         padding: 30px;
-    }
-
-    .stats-right {
-        gap: 15px;
     }
 
     .footer-design {
@@ -589,27 +516,16 @@ ul li {
         gap: 35px;
     }
 
-    .footer-design-text p {
-        width: 100%;
-    }
-
     .testimonial {
-        padding: 25px 30px;
+        padding: 22px 30px;
         gap: 30px;
     }
 }
 
-
-/* MOBILE */
-
 @media (max-width: 700px) {
-    header {
-        height: 60px;
-        padding: 0 20px;
-    }
 
-    #maining {
-        width: 100px;
+    header {
+        padding: 0 20px;
     }
 
     ul {
@@ -630,10 +546,6 @@ ul li {
         text-align: center;
     }
 
-    .hero-text h1 {
-        font-size: 28px;
-    }
-
     .hero-image {
         width: 100%;
     }
@@ -642,9 +554,18 @@ ul li {
         width: 230px;
     }
 
+    .clients {
+        padding: 0 20px;
+    }
+
+    .community {
+        padding: 28px 20px 40px;
+    }
+
     .logos {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 20px;
     }
 
     .cards {
@@ -673,15 +594,17 @@ ul li {
         align-items: center;
     }
 
-    .feature-text h2,
+    .feature-text h2 {
+        width: 100%;
+    }
+
     .feature-text p {
         width: 100%;
     }
 
     .stats {
-        min-height: auto;
+        height: 360px;
         flex-direction: column;
-        align-items: center;
         gap: 25px;
         text-align: center;
         padding: 35px 20px;
@@ -693,7 +616,7 @@ ul li {
 
     .stats-right {
         width: 100%;
-        max-width: 350px;
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 
@@ -702,11 +625,11 @@ ul li {
     }
 
     .footer-design {
-        min-height: auto;
+        height: 600px;
         flex-direction: column;
         padding: 40px 20px;
-        text-align: center;
         gap: 25px;
+        text-align: center;
     }
 
     .footer-design-image {
@@ -731,7 +654,7 @@ ul li {
     }
 
     .testimonial {
-        min-height: auto;
+        height: 650px;
         flex-direction: column;
         padding: 35px 20px;
         gap: 25px;
@@ -764,74 +687,37 @@ ul li {
     .testimonial-logos {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 15px;
     }
 }
 
-
-/* VERY SMALL MOBILE */
-
 @media (max-width: 450px) {
-    header {
-        padding: 0 15px;
-    }
-
-    .hero {
-        padding: 25px 15px;
-    }
 
     .hero-text h1 {
         font-size: 25px;
     }
 
-    .hero-text p {
-        font-size: 8px;
-    }
-
-    .clients {
-        padding: 0 15px;
-    }
-
-    .community {
-        padding: 25px 15px 35px;
-    }
-
-    .community h2 {
-        font-size: 17px;
-    }
-
-    .card {
-        width: 180px;
-    }
-
-    .feature {
-        padding: 35px 15px;
-    }
-
-    .feature-text h2 {
-        font-size: 18px;
+    .hero-image img {
+        width: 190px;
     }
 
     .stats {
-        padding: 30px 15px;
+        height: 500px;
     }
 
     .stats-right {
         grid-template-columns: 1fr;
     }
 
-    .footer-design {
-        padding: 35px 15px;
+    .card {
+        width: 180px;
     }
 
-    .footer-design-text h2 {
-        font-size: 19px;
+    .footer-design {
+        height: 650px;
     }
 
     .testimonial {
-        padding: 30px 15px;
-    }
-
-    .testimonial-content > p {
-        font-size: 9px;
+        height: 700px;
     }
 }
