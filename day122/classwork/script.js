@@ -1,0 +1,5 @@
+console.log("giorgi kandelaki") 
+console.log(12)
+console.log("kaxeti")
+console.log("170სმ")
+console.log(true)
