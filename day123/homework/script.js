@@ -107,9 +107,9 @@ let resultss = sentence.replaceAll(" ", "")
 console.log(resultss.length)
 
 // 17
-// 17
 let textebi = "   JavaScript is GREAT!!! JavaScript is POWERFUL!!!   "
 let resultebinaxva = textebi.trim();
+
 resultebinaxva = resultebinaxva.replaceAll("JavaScript", "JS")
 resultebinaxva = resultebinaxva.replaceAll("!!!", "!")
 resultebinaxva = resultebinaxva.slice(0, 30) + "..."
