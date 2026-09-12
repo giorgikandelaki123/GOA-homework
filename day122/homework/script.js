@@ -36,6 +36,7 @@ let coins = 50;
 const player = "Warrior";
 
 health -= 25;
+console.log(health)
 coins += 40;
 level++;
 coins *= 2;
